@@ -1,0 +1,19 @@
+[
+    {
+      "title": "CareShare",
+      "imageSrc": "projects/project.png",
+      "description": "A website that provides a platform for Donors and NGOs.",
+      "skills": ["MERN", "HTML", "CSS"],
+     
+      "source": "https://www.github.com/CareShare"
+    },
+    {
+      "title": "Sentiment Analysis",
+      "imageSrc": "projects/project.png",
+      "description": "model to analyze customer reviews and determine the overall sentiments",
+      "skills": ["Python","Jupyter Notebook","Machine Learning"],
+      
+      "source": "https://github.com/yutika-codes/Sentiment_Analysis-"
+     }
+    
+  ]
