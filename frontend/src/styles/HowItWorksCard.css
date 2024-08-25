@@ -1,0 +1,192 @@
+.HowItWorksCard {
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color: white;
+    width:31%;
+    margin:  0.7vmax;
+    cursor: pointer;
+    
+  }
+
+  .HowItWorksCard >img{
+    /* margin: 0 1vmax;  */
+    /* margin: -1vmax 0 1vmax 0; */
+    transition: all 0.5s;
+    width: 70%;
+    /* height: 230px;*/
+}
+
+.HowItWorksCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+  }
+
+  .HowItWorksCard  p{
+    margin:  0.7vmax;
+    color:rgb(65, 65, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+
+  .HowItWorksCard span{
+    margin: -1vmax 0 1vmax 0;
+    color:  rgb(38, 107, 246);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+
+  .HowItWorks
+  {
+    display: grid;
+    width:90vw;
+    margin:auto;
+    /* border:1px solid red; */
+  }
+  
+  .HowItWorks >:first-child
+  {
+    display:flex;
+    /* flex-wrap: wrap; */
+  }
+
+  .forwardArrow 
+  {
+    border-radius: 50%;
+    color:   rgb(38, 107, 246);
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .HowItWorksCard {
+     display: flex;
+     flex-direction:row;
+    align-items: center; 
+    flex-wrap: wrap;
+    background-color: white;
+    width: 31%;
+     margin:  0.7vmax;
+    transition: all 0.5s;
+    cursor: pointer; 
+    display:grid;
+    width:90vw;
+    margin:auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5vmax auto;
+}
+.HowItWorksCard > div:first-child 
+{
+display:flex;
+flex-wrap: wrap;
+    width: 46%;
+}
+
+.howitworksicon img{
+    transition: all 0.5s;
+
+}
+
+ .HowItWorksCard:hover{
+    /* transform: translateY(-0.4vmax); */
+    /* box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363); */
+
+/* } */
+
+
+/* .HowItWorksCard  img{
+    width: 77%;
+
+}
+
+
+.HowItWorksCard  p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 83, 83);
+    /* text-align: center; */
+    /* margin: -1vmax 0 0vmax 167px; */
+    
+
+/* } */
+
+/* #p2{
+    /* margin: -1vmax 0 1vmax 94px; */
+    /* color: orangered; */
+    /* text-align: center; */
+    
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+/* }  */
+
+/* .HowItWorksCard1 */
+/* { */
+    /* justify-content: space-between; */
+    /* height: 100%; */
+/* } */
+/* .HowItWorksCard2{ */
+    /* padding: 12px; */
+    /* width: 65.5%; */
+    /* border-radius: 10px; */
+    /* background-color: #f5f6fa; */
+    /* text-align: center; */
+    
+/* } */
+/* .HowItWorksCard3 > img */
+/* { */
+/* width:70%; */
+/* } */
+
+/* .HowItWorksCard3 > p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+} */
+
+.forwardArrow {
+
+    display: flex;
+    align-items: center;
+    font-size: 2.73em;
+    /* margin: 0 -8px;
+    position: relative;
+    z-index: 2; */
+} 
+/* .forwardArrow {
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    min-width: 32px;
+    max-width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    /* background: linear-gradient(90deg,#ff7400 28.12%,#f91717); */
+    /* transform: rotate(90deg);
+    color: #fff;
+    font-size: 24px;
+}
+.svg-inline--fa.fa-w-10 {
+    width: .625em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+} */ 
